@@ -17,7 +17,7 @@ function build(modeltype::Type{MyExperimentalDrugCocktailContext}, data::NamedTu
 
     # TODO: set the safety and bounds fields here
     # throw(ErrorException("You need to set the safety and bounds fields here"));
-    context.s = data.s
+    context.S = data.S
     context.bounds = data.bounds
 
     return context
